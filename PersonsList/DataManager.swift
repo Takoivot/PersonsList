@@ -6,8 +6,11 @@
 //
 
 
-struct Data {
-    let names = ["Bob",
+class Data {
+    
+    static let shared = Data()
+    
+    var names = ["Bob",
                  "Mary",
                  "Luis",
                  "Frank",
@@ -18,7 +21,7 @@ struct Data {
                  "Tim",
                  "Stanly"
     ]
-    let surnames = ["Laves",
+    var surnames = ["Laves",
                     "Faykerton",
                     "Simons",
                     "Lachevski",
@@ -29,7 +32,7 @@ struct Data {
                     "Sliderson",
                     "Grachevksy"
     ]
-    let phoneNumbers = ["111-111",
+    var phoneNumbers = ["111-111",
                         "222-222",
                         "333-333",
                         "444-444",
@@ -40,7 +43,7 @@ struct Data {
                         "999-999",
                         "123-456"
     ]
-    let emails = ["qqq@mail.ru",
+    var emails = ["qqq@mail.ru",
                   "www@mail.ru",
                   "fff@mail.ru",
                   "rrr@mail.ru",
@@ -51,4 +54,6 @@ struct Data {
                   "hhh@mail.ru",
                   "sss@mail.ru"
     ]
+    
+    private init() {}
 }
