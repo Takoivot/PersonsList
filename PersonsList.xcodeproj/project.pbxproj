@@ -68,18 +68,34 @@
 			children = (
 				F3AA5271282439C600B9D0D1 /* AppDelegate.swift */,
 				F3AA5273282439C600B9D0D1 /* SceneDelegate.swift */,
-				F3AA5277282439C600B9D0D1 /* Main.storyboard */,
+				F3B61A11282BAFBE009AA505 /* Storyboards */,
+				F3B61A10282BAF95009AA505 /* ViewControllers */,
+				F3AA52872824483600B9D0D1 /* Persons.swift */,
+				F3AA528928244DC200B9D0D1 /* DataManager.swift */,
+				F3AA527A282439C700B9D0D1 /* Assets.xcassets */,
+				F3AA527F282439C700B9D0D1 /* Info.plist */,
+			);
+			path = PersonsList;
+			sourceTree = "<group>";
+		};
+		F3B61A10282BAF95009AA505 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
 				F3B61A0A282B7A79009AA505 /* SectionsPersonsListViewController.swift */,
 				F3B61A0E282BA47A009AA505 /* TabBarViewController.swift */,
 				F3AA528B2827BB9D00B9D0D1 /* PersonInfoViewController.swift */,
 				F3AA5285282446C200B9D0D1 /* PersonsListViewController.swift */,
-				F3AA52872824483600B9D0D1 /* Persons.swift */,
-				F3AA528928244DC200B9D0D1 /* DataManager.swift */,
-				F3AA527A282439C700B9D0D1 /* Assets.xcassets */,
-				F3AA527C282439C700B9D0D1 /* LaunchScreen.storyboard */,
-				F3AA527F282439C700B9D0D1 /* Info.plist */,
 			);
-			path = PersonsList;
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F3B61A11282BAFBE009AA505 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F3AA5277282439C600B9D0D1 /* Main.storyboard */,
+				F3AA527C282439C700B9D0D1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
