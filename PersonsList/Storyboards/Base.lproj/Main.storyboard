@@ -111,12 +111,12 @@
             </objects>
             <point key="canvasLocation" x="-1313" y="-54"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Contacts-->
         <scene sceneID="dd2-xh-2MI">
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="AGe-HQ-eJa" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="JhM-Tw-DYj"/>
+                    <navigationItem key="navigationItem" title="Contacts" id="JhM-Tw-DYj"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UqI-cq-ea0">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
